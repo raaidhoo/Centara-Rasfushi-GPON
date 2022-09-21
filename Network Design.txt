@@ -1,0 +1,16 @@
+connection desired for 140 guest rooms
+2 guest room locations, one with 80 rooms and the other with 60 rooms
+
+Made up of 2 Rings
+
+2 uplinks going from central server room to two Guest room locations
+  2 redundency paths central server to two Guest room locations
+  
+8 splitter locations in the 80 rooms side
+  each splitter on 80 rooms side terminated to split the paths for 20 rooms (ONT LOCATIONS)
+  
+4 splitter locations in the 60 rooms side
+  each splitter on 60 rooms side terminated to split the paths for 15 rooms (ONT LOCATIONS)
+  
+two core paths are laid from splitter to each room (ONT LOCATION)
+both cores are terminated to the fiber box giving two choices of uplinks to the rooms incase of a backup
